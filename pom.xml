@@ -12,7 +12,7 @@
 	<description>OrderMS</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
+		<groupId>org.springframework.boot</groupId> 
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.2.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
@@ -22,6 +22,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>8</java.version>
+ <sonar.projectKey>Akhila-reddy18_orderms</sonar.projectKey>
+  <sonar.organization>akhila-reddy18</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>14a052eefea1f4c4c0b6afa6ba39f15c440dad3d</sonar.login>
 		
 	</properties>
 <dependencyManagement>
